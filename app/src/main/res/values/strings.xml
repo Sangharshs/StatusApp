@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Best DP and Status</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Best DP and Statuso</string>
+    <string name="nav_header_subtitle">Sonubabu5273@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+<!--    <string name="fb_banner_ads">604354307140085_604355950473254</string>-->
+<!--    <string name="fb_interstitial_ad">322867452117587_322870852117247</string>-->
+<!-- Edited-->
+<!--    <string name="fb_banner_ads">322867452117587_322869378784061</string>-->
+<!--    <string name="fb_interstitial_ad">322867452117587_322870852117247</string>-->
+                           <!--07-10-2020-->
+    <string name="fb_banner_ads">326601921964255_328945191729928</string>
+    <string name="fb_interstitial_ad">326601921964255_328944838396630</string>
+<!-- Banner-->
+        <string name="fb_app_id">1404026186435832</string>
+        <string name="fb_login_protocall_schema">fb1404026186435832</string>
+
+        <string name="menu_home">Hindi Quotes</string>
+        <string name="menu_gallery">Images</string>
+        <string name="menu_slideshow">English</string>
+        <string name="title_activity_main2">MainActivity</string>
+        <string name="title_home">Hindi Quotes</string>
+        <string name="title_dashboard">Images</string>
+        <string name="title_notifications">English Quotes</string>
+        <string name="play_store_link">https://play.google.com/store/apps/details?id=</string>
+        <string name="developer_name">Sonu Yadav</string>
+        <string name="email">Sonubabu5273@gmail.com</string>
+        <string name="saved_to">saved to</string>
+        <string name="download_started">Downloading Start</string>
+    </resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_centerVertical="true"
+    android:layout_height="match_parent">
+           <RelativeLayout
+               android:layout_width="3dp"
+               android:background="@color/colorPrimaryDark"
+               android:layout_height="match_parent"/>
+<!--        <view-->
+<!--            android:layout_width="3dp"-->
+<!--            android:background="@android:color/black"-->
+<!--            android:layout_height="match_parent"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+             <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="17sp"
+
+            android:id="@+id/quotetext"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:visibility="gone"-->
+<!--            android:gravity="center"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--           android:layout_margin="5dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/share_fb"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@android:color/white"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic"/>-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/share_wh"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@android:color/white"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/wh"/>-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/share_insta"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@android:color/white"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/insta"/>-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/share_share"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@android:color/white"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:backgroundTint="@color/colorAccent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/sh"/>-->
+<!--        </LinearLayout>-->
+<!--        </LinearLayout>-->
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
